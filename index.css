@@ -1,0 +1,79 @@
+
+    :root {
+       --bg-color: #121212;
+ --font-body: 'Inter', sans-serif;
+ --footer-bg-color: #0A0A0A;
+ --navbar-bg-color: #1A1A1A;
+ --primary-color: #DAA520;
+ --secondary-color: #B8860B;
+ --text-color: #FFFFFF;
+    }
+    html { scroll-behavior: smooth; } body { font-family: var(--font-body); background-color: var(--bg-color); color: var(--text-color); } h1, h2, h3, h4, h5, h6 { color: var(--text-color); font-weight: bold; } p { color: var(--text-color); }
+      
+    .navbar {
+      background-color: var(--navbar-bg-color);
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+  
+
+    #hero {
+      background-color: var(--bg-color);
+    }
+  
+
+    .service-card:hover {
+      box-shadow: 0 10px 30px rgba(var(--primary-color), 0.2);
+    }
+  
+
+    .gallery-item img {
+      transition: transform 0.5s ease;
+    }
+    
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+  
+
+    #about {
+      background-color: var(--bg-color);
+    }
+  
+
+    .testimonial-card {
+      transition: all 0.3s ease;
+    }
+    
+    .testimonial-card:hover {
+      transform: translateY(-10px);
+    }
+  
+
+    .button-loading {
+      pointer-events: none;
+      opacity: 0.7;
+    }
+  
+
+    #location-hours {
+      background-color: var(--bg-color);
+    }
+  
+
+    #social-proof {
+      background-color: var(--bg-color);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-10px);
+    }
+  
+
+    .footer {
+      background-color: var(--footer-bg-color);
+    }
+  
+    
